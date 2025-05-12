@@ -8,8 +8,8 @@ public class ItemUpdaterFactory {
 
     static {
         updaters.put("Aged Brie", new AgedBrieUpdater());
-        updaters.put("Backstage passes", new BackstagePassesUpdater());
-        updaters.put("Sulfuras", new SulfurasUpdater());
+        updaters.put("Backstage passes to a TAFKAL80ETC concert", new BackstagePassesUpdater());
+        updaters.put("Sulfuras, Hand of Ragnaros", new SulfurasUpdater());
     }
 
     public static ItemUpdater getUpdater(Item item) {
